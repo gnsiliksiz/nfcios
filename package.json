@@ -1,8 +1,7 @@
 {
    "name": "react-native-id-passport-nfc-reader",
   "version": "0.0.1",
-  "private": true,
-    "source": "src/index",
+  "source": "src/index",
   "description": "You can read passport and ID card on iOS devices using nfc with react native",
   "scripts": {
     "android": "react-native run-android",
