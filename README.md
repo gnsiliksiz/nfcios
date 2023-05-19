@@ -24,7 +24,8 @@ scanPassport({
       }
       console.log(res)
     });
-// ...
+//Description
+// React native allows you to scan using nfc for ID and passport only on ios platform
 
 
 
