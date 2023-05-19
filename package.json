@@ -11,7 +11,7 @@
     "start": "react-native start",
     "test": "jest"
   },
-  "repository": "https://github.com/gnsiliksiz/react-native-id-passport-nfc-reader",
+  "repository": "https://github.com/gnsiliksiz/nfcios",
   "author": "gunesilksz <gunesiliksiz@gmail.com> (https://github.com/gnsiliksiz)",
   "license": "MIT",
   "main": "src/index.tsx",
@@ -23,7 +23,8 @@
     "react-native-nfc",
     "react-native-passport-reader",
     "react-native-id-card-reader",
-    "react-native-id-passport-nfc-reader"
+    "react-native-id-passport-nfc-reader",
+    "nfcios"
 ],
   "devDependencies": {
     "@babel/core": "^7.20.0",
