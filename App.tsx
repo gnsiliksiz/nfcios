@@ -10,25 +10,23 @@ import {SafeAreaView, View, Button} from 'react-native';
 import {scanPassport} from './src';
 
 function App(): JSX.Element {
- 
   const scanDocument = () => {
     scanPassport({
-      birthDate: '1993-04-08T00:00:00Z',
-      expiryDate: '2024-12-12T00:00:00Z',
-      passportNumber: 'BR3484971',
+      birthDate: '1994-01-13T00:00:00Z',
+      expiryDate: '2030-08-19T00:00:00Z',
+      passportNumber: 'A28L66194',
       useNewVerificationMethod: true,
-    }).then((res) => {
+    }).then(res => {
       if ('error' in res) {
-      console.log(res.error)
+        console.log(res.error);
         return;
       }
-      console.log(res)
+      console.log(res);
     });
   };
   return (
     <SafeAreaView>
       <View>
-       
         <Button title={'scanDoc'} onPress={scanDocument} />
       </View>
     </SafeAreaView>

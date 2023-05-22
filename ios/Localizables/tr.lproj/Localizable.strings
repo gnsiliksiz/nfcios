@@ -37,3 +37,7 @@
 "NFCDisplayMessageStrings_ChipAuthenticationFailed" = "Çip Kimlik Doğrulaması Başarısız";
 "NFCDisplayMessageStrings_InvalidDataPassed" = "Geçersiz Veri Aktarıldı";
 "NFCDisplayMessageStrings_NotYetSupported" = "Henüz Desteklenmiyor";
+"NFCDisplayMessageStrings_SecurityStatusNotSatisfied"="Güvenlik durumu tatmin edici değil";
+"NFCDisplayMessageStrings_SessionInvalidated"="Oturum Geçersiz Kılındı";
+"NFCDisplayMessageStrings_ClassNotSupported"="Sınıf Desteklenmiyor";
+"NFCDisplayMessageStrings_TagConnectionLost"="Etiket Bağlantısı Kesildi";

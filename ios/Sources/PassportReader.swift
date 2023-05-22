@@ -366,7 +366,7 @@ extension PassportReader {
                 Log.error( "ERROR - \(errMsg)" )
                 
                 var redoBAC = false
-                if errMsg == "Session invalidated" || errMsg == "Class not supported" || errMsg == "Tag connection lost"  {
+              if errMsg == NFCDisplayMessageStrings.SessionInvalidated.localized || errMsg == NFCDisplayMessageStrings.ClassNotSupported.localized || errMsg == NFCDisplayMessageStrings.TagConnectionLost.localized {
                     // Check if we have done Chip Authentication, if so, set it to nil and try to redo BAC
                     if self.caHandler != nil {
                         self.caHandler = nil
@@ -375,11 +375,11 @@ extension PassportReader {
                         // Can't go any more!
                         throw error
                     }
-                } else if errMsg == "Security status not satisfied" || errMsg == "File not found" {
+                } else if errMsg == NFCDisplayMessageStrings.SecurityStatusNotSatisfied.localized || errMsg == "File not found" {
                     // Can't read this element as we aren't allowed - remove it and return out so we re-do BAC
                     self.dataGroupsToRead.removeFirst()
                     redoBAC = true
-                } else if errMsg == "SM data objects incorrect" || errMsg == "Class not supported" {
+                } else if errMsg == "SM data objects incorrect" || errMsg == NFCDisplayMessageStrings.ClassNotSupported.localized {
                     // Can't read this element security objects now invalid - and return out so we re-do BAC
                     redoBAC = true
                 } else if errMsg.hasPrefix( "Wrong length" ) || errMsg.hasPrefix( "End of file" ) {  // Should now handle errors 0x6C xx, and 0x67 0x00

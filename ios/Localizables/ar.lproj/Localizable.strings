@@ -36,3 +36,7 @@
 "NFCDisplayMessageStrings_ChipAuthenticationFailed" = "فشلت مصادقة الشريحة";
 "NFCDisplayMessageStrings_InvalidDataPassed" = "تم تمرير بيانات غير صالحة";
 "NFCDisplayMessageStrings_NotYetSupported" = "غير مدعوم حتى الآن";
+"NFCDisplayMessageStrings_SecurityStatusNotSatisfied"="حالة الأمان غير راضية";
+"NFCDisplayMessageStrings_SessionInvalidated"="تم إلغاء الجلسة";
+"NFCDisplayMessageStrings_ClassNotSupported"="فئة غير مدعومة";
+"NFCDisplayMessageStrings_TagConnectionLost"="تم فقد اتصال العلامة";

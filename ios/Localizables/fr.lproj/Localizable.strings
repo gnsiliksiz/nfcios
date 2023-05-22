@@ -36,3 +36,7 @@
 "NFCDisplayMessageStrings_ChipAuthenticationFailed" = "Échec de l'authentification de la puce";
 "NFCDisplayMessageStrings_InvalidDataPassed" = "Données invalides transmises";
 "NFCDisplayMessageStrings_NotYetSupported" = "Pas encore pris en charge";
+"NFCDisplayMessageStrings_SecurityStatusNotSatisfied"="Статус безопасности не удовлетворен";
+"NFCDisplayMessageStrings_SessionInvalidated"="Session invalidée";
+"NFCDisplayMessageStrings_ClassNotSupported"="Classe non prise en charge";
+"NFCDisplayMessageStrings_TagConnectionLost"="Connexion de balise perdue";

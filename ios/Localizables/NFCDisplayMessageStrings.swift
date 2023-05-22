@@ -45,6 +45,10 @@ enum NFCDisplayMessageStrings: String{
   case ChipAuthenticationFailed
   case InvalidDataPassed
   case NotYetSupported
+  case SecurityStatusNotSatisfied
+  case SessionInvalidated
+  case ClassNotSupported
+  case TagConnectionLost
   var localized: String {
     NSLocalizedString(String(describing: Self.self) + "_\(rawValue)", comment: "")
   }

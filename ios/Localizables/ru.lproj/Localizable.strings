@@ -36,3 +36,7 @@
 "NFCDisplayMessageStrings_ChipAuthenticationFailed" = "Ошибка аутентификации чипа";
 "NFCDisplayMessageStrings_InvalidDataPassed" = "Переданы недопустимые данные";
 "NFCDisplayMessageStrings_NotYetSupported" = "Пока не поддерживается";
+"NFCDisplayMessageStrings_SecurityStatusNotSatisfied"="Security status not satisfied";
+"NFCDisplayMessageStrings_SessionInvalidated"="Сессия недействительна";
+"NFCDisplayMessageStrings_ClassNotSupported"="Класс не поддерживается";
+"NFCDisplayMessageStrings_TagConnectionLost"="Соединение с тегом потеряно";

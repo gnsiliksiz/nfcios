@@ -36,3 +36,7 @@
 "ChipAuthenticationFailed" = "Chip-Authentifizierung fehlgeschlagen";
 "InvalidDataPassed" = "Ungültige Daten übergeben";
 "NotYetSupported" = "Noch nicht unterstützt";
+"NFCDisplayMessageStrings_SecurityStatusNotSatisfied"="Sicherheitsstatus nicht erfüllt“";
+"NFCDisplayMessageStrings_SessionInvalidated"="Sitzung ungültig";
+"NFCDisplayMessageStrings_ClassNotSupported"="Klasse nicht unterstützt";
+"NFCDisplayMessageStrings_TagConnectionLost"="Tag-Verbindung verloren";
