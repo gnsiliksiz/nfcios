@@ -1,4 +1,4 @@
-# react-native-testmany
+# react-native-id-passport-nfc-reader
 
 test
 
